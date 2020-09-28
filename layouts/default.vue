@@ -2,6 +2,7 @@
   <div>
     <AppMenu />
     <Nuxt />
+    <footer>Copyright belogs to Jellyhead</footer>
   </div>
 </template>
 
