@@ -28,10 +28,7 @@ export const actions = {
         }
       )
         .then(res => res.json())
-        .then(data => {
-          console.log(data);
-          commit("updateFoodData", data);
-        });
+        .then(data => commit("updateFoodData", data));
     } catch (error) {
       console.log(error);
     }
