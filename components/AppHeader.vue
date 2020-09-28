@@ -18,7 +18,7 @@ export default {};
 <style lang="scss" scoped>
 .masthead {
   width: 100%;
-  height: 80vh; /* if you don't want it to take up the full screen, reduce this number */
+  height: 93vh; /* if you don't want it to take up the full screen, reduce this number */
   overflow: hidden;
   background-size: cover !important;
   background: linear-gradient(
